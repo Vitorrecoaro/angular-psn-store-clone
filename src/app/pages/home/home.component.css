@@ -1,4 +1,8 @@
-.home__container{
+.home__container {
+	padding-top: 100px;
+}
+
+.cards-container {
 	width: 90%;
 	margin: auto;
 	padding-top: 50px;
@@ -7,4 +11,10 @@
 	justify-content: space-around;
 	align-items: baseline;
 	flex-wrap: wrap;
+}
+
+.banner-container img {
+	width: 100%;
+	max-height: 600px;
+	object-fit: cover;
 }
