@@ -6,13 +6,23 @@
 			srcset=""
 			width="140px"
 			height="32px"
-		>
+		/>
 	</div>
-	<div class="menu-bar__item">
-		<ul>
-			<li><a href="#">YOUTUBE</a></li>
-			<li><a href="#">LINKEDIN</a></li>
-			<li><a href="#">GITHUB</a></li>
-		</ul>
+	<div class="navigation_options">
+		<a
+			class="navigation_option"
+			routerLinkActive="active"
+			routerLink="/"
+			[routerLinkActiveOptions]="{ exact: true }"
+		>
+			Novidades
+		</a>
+		<a class="navigation_option"> Coleções </a>
+		<a class="navigation_option" routerLinkActive="active" routerLink="deals">
+			Ofertas
+		</a>
+		<a class="navigation_option">PS5</a>
+		<a class="navigation_option">Assinaturas</a>
+		<a class="navigation_option">Navegar</a>
 	</div>
 </div>
